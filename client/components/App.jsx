@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-center app">My Awesome React Project</h1>
+        <h1 className="text-center">My Awesome React Project</h1>
       </div>
     );
   }
