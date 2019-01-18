@@ -3,6 +3,7 @@
 ## Requirements
 
     Node -v ^8
+
     npm -v ^3
 
 ## Usage
@@ -24,5 +25,5 @@ npm run build
 Start development server.
 
 ```
-nom run start:dev
+npm run start:dev
 ```
