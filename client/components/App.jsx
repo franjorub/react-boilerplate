@@ -1,7 +1,13 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class App extends Component {
+  state = {};
+
   render() {
-    return <div>This is my awesome react project!!!!</div>;
+    return (
+      <div>
+        <h1 className="text-center">My Awesome React Project</h1>
+      </div>
+    );
   }
 }

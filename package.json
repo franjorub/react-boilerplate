@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -d",
-    "start:dev": "webpack-dev-server --open --mode development"
+    "start:dev": "webpack-dev-server --open --mode development",
+    "lint:fix": "eslint client/*.jsx client/**/*.jsx --fix"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +14,16 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.4",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
