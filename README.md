@@ -15,7 +15,7 @@ Install the dependencies.
 npm install
 ```
 
-For production.
+For build the public folder, **production**.
 
 ```
 npm run build
