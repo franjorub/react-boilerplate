@@ -21,6 +21,7 @@ The boilerplate has been tested in the following enviroment
 - Supports all jsx syntax and modern javascript
 - eslint configured in the project
 - Supports import and compress images
+- Bootstrap 4.1.2 is included via cdn
 
 ---
 
