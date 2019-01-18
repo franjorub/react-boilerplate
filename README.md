@@ -1,29 +1,59 @@
 # React Boilerplate
 
+## Description
+
+This is a simple boilerplate for just Download the necessary packages and start a react project.
+
+---
+
 ## Requirements
 
-    Node -v ^8
+The boilerplate has been tested in the following enviroment
 
-    npm -v ^3
+- node version ^8.0
+- npm version ^3.5
+
+---
+
+## Current Features
+
+- Supports import css files
+- Supports all jsx syntax and modern javascript
+- eslint configured in the project
+- Supports import and compress images
+
+---
 
 ## Usage
 
-Just run this commands and start code:
+Run the following commands to use the boilerplate.
 
-Install the dependencies.
+- Install the dependencies.
 
 ```
 npm install
 ```
 
-For build the public folder, **production**.
+- For build a index.html file with the bundle.js.
 
 ```
 npm run build
 ```
 
-Start development server.
+- For start the development server.
 
 ```
 npm run start:dev
 ```
+
+- Format the project.
+
+```
+npm run lint:fix
+```
+
+---
+
+## Contribution
+
+If You want contribute with the project please fork and send me a pull request! :).
